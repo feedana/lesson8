@@ -63,7 +63,8 @@ nav{
     width: 60%;
 }
 
-.contact-us-button{
+.contact-us-button,
+.button{
 color: white;
  padding: 10px 20px;
  border-radius: 4px;
@@ -71,3 +72,20 @@ color: white;
  background-color: #0193dc;
 }
  
+.video-and-info{
+    padding: 50px 0;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.video-and-info-description-title{
+    font-size: 30px;
+    width: 70%;
+}
+
+.video-and-info-description{
+    color: #919fae;
+    margin: 20px 0;
+    font-size: 20px;
+}
