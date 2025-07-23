@@ -1,5 +1,42 @@
+@font-face {
+    font-family:openSans ;
+    src: url(../fonts/openSans/static/OpenSans-Regular.ttf);
+}
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ outline: none;
+ list-style-type: none;
+ text-decoration: none;
+
+}
+
+body{
+    font-family: 'openSans',Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+ width: 1200px;
+ margin: 0 auto;
+}
+header{
+    padding: 20px;
+    background-image: url("../images/bg.png"); no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    color: #cecdcd;
+    margin-left: 20px;
+}
+
+.active{
+    color: white;
 }
