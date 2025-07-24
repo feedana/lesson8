@@ -90,6 +90,7 @@ color: white;
     font-size: 20px;
 }
 
+/* second section */
 .school-profile {
   display: flex;
   justify-content: space-between;
@@ -154,4 +155,47 @@ color: white;
   color: #666;
   font-size: 14px;
 }
+/* galery  */
 
+.gallery-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.gallery-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.more-btn {
+  margin-top: 30px;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.more-btn:hover {
+  background-color: #0056b3;
+}
+/* footer */
